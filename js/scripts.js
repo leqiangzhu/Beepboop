@@ -1,20 +1,4 @@
 
-/* var number=102;
-
-		var numberString=number.toString();
-
-
-			if(number%3===0){
-				alert("I cant")
-			}else {
-						if (numberString.includes("1")){
-							alert("ok,I see 1")
-						}else if (numberString.includes("0")){
-							alert("ok--this 0")
-						}
-			} */
-
-
 function beebBoop(number){
 	var numberString=number.toString();
 	var outputString;
@@ -45,15 +29,6 @@ function beebBoop(number){
 }
 
 
-
-
-
-/* var num=100;
-var result=beebBoop(num)
-alert("the result is :"+result); */
-
-
-
 function getArray(number){
 	var outArray=[];
 
@@ -65,25 +40,39 @@ function getArray(number){
 	return outArray;
 }
 
-/* var x=getArray(100);
-
-document.write("IOUTPUT:"+x+"</br>") 
-		 
-		//	
-			 */
-
+/* function printToPage(array, index) {
+	
+    demoP.innerHTML = demoP.innerHTML + "index[" + index + "]: " + item + "<br>"; 
+}
  
-
-
-
-
+ forEach */
+ 
+ 
 
 $(document).ready(function() {
 
   $("#input-form").submit(function(event) {
 	var inputNum=$("#numInput").val()
-	var toOutput = getArray(inputNum);
-    $('#output').text(toOutput);
+	var toOutputs = getArray(inputNum);
+	 
+
+/* 	 for(var key in toOutputs){
+ document.writeln("#"+[key]+"resultw:"+toOutputs[key]+'<br>');
+} */
+	 
+	 
+	 
+/* 	toOutputs.forEach(function(toOutput) {
+		alert(toOutput);
+   
+}); */
+	
+	
+	
+	
+	
+
+  $('#output').text(toOutputs);
    
     $("#result").show();
 	
