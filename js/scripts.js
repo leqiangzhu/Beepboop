@@ -40,45 +40,14 @@ function getArray(number){
 	return outArray;
 }
 
-/* function printToPage(array, index) {
-	
-    demoP.innerHTML = demoP.innerHTML + "index[" + index + "]: " + item + "<br>"; 
-}
- 
- forEach */
- 
- 
 
 $(document).ready(function() {
 
   $("#input-form").submit(function(event) {
 	var inputNum=$("#numInput").val()
 	var toOutputs = getArray(inputNum);
-	 
-
-/* 	 for(var key in toOutputs){
- document.writeln("#"+[key]+"resultw:"+toOutputs[key]+'<br>');
-} */
-	 
-	 
-	 
-/* 	toOutputs.forEach(function(toOutput) {
-		alert(toOutput);
-   
-}); */
-	
-	
-	
-	
-	
-
   $('#output').text(toOutputs);
-   
     $("#result").show();
-	
-	
-	
-
     event.preventDefault();
   });
 }); 
