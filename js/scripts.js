@@ -11,7 +11,7 @@ function beebBoop(number){
 		
 	} */
 	
-			if(inByThree){
+			if(inByThree && number!==0){
 			outputString="I'm sorry, Dave. I'm afraid I can't do that.";
 			
 			//	alert("I cant")
