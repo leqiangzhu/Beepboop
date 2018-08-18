@@ -3,6 +3,7 @@
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
   <title>Beep Boop</title>
@@ -10,16 +11,30 @@
 <body>
   <div class="container">
     <h1>Beep Boop</h1>
+	<h3>Please enter a number</h3>
     <form id="input-form">
     <label for="number">number:</label>
     <input id="numInput" type="number" name="userInput" >
-    <button type="submit" class="btn">Result</button>
+    <button type="submit" class="btn-success">Result</button>
+	
+	<button class="reverse">reverse</button>
+	 
+	
     </form>
     <div id ="result">
-      <p>Here is result : </p><span id="output"> </br></span>
-
+      <p>Here is result : </p><div id="output"> </br></div>
+		
+		 
     </div>
-    
+    <div id ="reverseOutput">
+      
+		
+		<span id="reoutput"> </br></span>
+    </div>
+	
+	
+	
+	
   </div>
 </body>
 </html>
