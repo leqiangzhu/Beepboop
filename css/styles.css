@@ -1,4 +1,27 @@
-#result {
-  display: none;
-  font-size: 30px;
+*{ 
+	font-family:'Josefin Slab', serif;
+}
+
+
+
+.container{
+	width: 1100px;
+	 
+	background:#ebeff2
+}
+body
+  {
+  background-color:#c0dfd9;
+  }
+  
+
+
+
+
+
+footer {
+  position: relative;
+ 
+  
+	
 }
