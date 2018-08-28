@@ -49,6 +49,19 @@ function beebBoop(number){
 			  $("#results").slideDown();
 			} 
 	 
+ 
+ 
+
+		 	function outputResult(array) {
+			  $("#output").text("");
+			  var index = 0;
+			  array.forEach(function(word){
+				$("#output").append(word + "<br>");
+				index++;
+			  });
+			  $("#results").slideDown();
+			} 
+	 
 	 //the reverse function
 	 function outputResultReverse(array) {
 			  $("#reoutput").text("");
@@ -84,24 +97,6 @@ $(document).ready(function() {
 
   });
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
